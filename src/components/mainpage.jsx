@@ -5,7 +5,7 @@ import "./mainpage.css";
 import Slide from "./slideshow/slide";
 import FooterPage from "./footer";
 import Cards from "./cards/cards";
-import MainPageBody from "./main_page_body";
+import MainpageBody from "./main_page_body";
 class Mainpage extends Component {
   render() {
     return (
@@ -13,7 +13,7 @@ class Mainpage extends Component {
         <NavBar />
         <Slide />
         <br />
-        <MainPageBody/>
+        <MainpageBody/>
         <Cards />
         <FooterPage />
       </React.Fragment>
