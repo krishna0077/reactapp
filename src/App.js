@@ -63,7 +63,7 @@ class App extends Component {
           <Route path="/pricing" component={Pricing} />
           <Route path="/notfound" component={NotFound} />
           <Redirect from="/" exact to="/mainpage" />
-          <Redirect to="/mainpage" />
+          <Redirect to="/notfound" />
         </Switch>
       </React.Fragment>
     );
